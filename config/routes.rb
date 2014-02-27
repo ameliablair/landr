@@ -1,5 +1,6 @@
 Landr::Application.routes.draw do
 
+get "l/:short_name" => "sites#landing"
   resources :sites
 
   devise_for :users
