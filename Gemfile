@@ -4,6 +4,9 @@ gem "twitter-bootstrap-rails"
 
 gem 'devise'
 
+gem 'better_errors'
+gem 'binding_of_errors'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.3'
 
